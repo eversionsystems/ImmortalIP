@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+.slider-input {
+	border:0 !important;
+}
+.ui-slider {
+	margin-top:5px;
+}
+.et_pb_text {
+	text-transform:uppercase;
+}
+.et_pb_text_21 label:before, 
+.et_pb_text_23 label:before,
+.et_pb_text_25 label:before,
+.et_pb_text_27 label:before,
+.et_pb_text_29 label:before {
+	font-family: "ETmodules" !important;
+	font-weight: normal;
+	font-size: 24px;
+	margin: 10px;
+
+}
+.et_pb_text_21 label:before {
+	content: "\e0e3";
+}
+.et_pb_text_23 label:before {
+	content: "\e0e9";
+}
+.et_pb_text_25 label:before {
+	content: "\e0ec";
+}
+.et_pb_text_27 label:before {
+	content: "\e109";
+}
+.et_pb_text_29 label:before {
+	content:"\e029";
+}
+
+@media (min-width: 981px) {
+	.et_pb_row {
+		padding: 1% 0;
+	}
+}
+input[type=text] {
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-align: right;
+}
+.ds-vertical-align {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
